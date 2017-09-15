@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Ali's Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="lighterbackground" >
+                <span id="namecolor" class="myname">Ali Woolstenhulme</span>
+            </div>
+        </div>
+
+        <div class="about-container">
+              <!-- <span class="about">About Me</span> -->
+              <h1 id="about-me-title">About Me</h1>
+              <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARyAAAAJDFhMjMyOWExLWZkMjEtNGVhOS04MWU3LTdjYjExNThlNDdmNA.jpg">
+              <p>Hi! I'm Ali. I'm currently a student at Brigham Young University, studying Psychology, and minoring in Spanish.
+                  I hope to complete a Master's in social work after my undergrad and going on to be a cou
+              </p>
+        </div>
+
+        <div  class="whatido-container">
+                <!-- <span class="whatido">What I Do</span> -->
+                <h1 id='what-i-do-title'>What I Do</h1>
+                <a class="link" href="resume.html">Resume</a>
+                <a class="link" href="https://www.linkedin.com/in/ali-woolstenhulme-9373a8109">LinkedIn Profile</a>
+                <a class="link" href="https://github.com/BYUCS260F2017/lab-1-portfolio-aliwoolste">GitHub</a>
+                <a class="link" href="dino.html">Dinoventures</a>
+                <a class="link" href="myfavoritethings.html">My Favorite Videos</a>
+        </div>
+    </body>
+</html>
+<script>
+//Create a Function
+//pass in element (that contains title) and the color I want.
+function changecolor(fred, colorme){
+//make variable "element", point to my name so I can manipulate it. You do it with document.getElementbyId method that selects element by Id.
+   //I have captured element,now setting style property of color equal to purple. 
+   fred.style["color"]=colorme
+   //element.style["font-family"]=fontme
+   //an element is an object. Objects have methods and properties.  After the dot is all the properties and methods of that object, and you choose which one you want to change. 
+
+}
+//setTimeout is a built in Javascript function. give it a function and time, and it will run function after given time. 
+setTimeout(function(){
+    //setting variable element equal to an item in the DOM identified by the ID
+    var element = document.getElementById('namecolor')
+    changecolor(element, "blue")
+},1000)
+setTimeout(function(){
+    var element = document.getElementById('about-me-title')
+    changecolor(element, "purple")
+},3000)
+setTimeout(function(){
+    var element = document.getElementById('what-i-do-title')
+    changecolor(element, "green")
+},5000)
+</script>
+

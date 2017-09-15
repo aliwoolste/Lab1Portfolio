@@ -1,1 +1,88 @@
 
+.container{
+    background-image: url('./assets/images/dino.png');
+    background-size: cover;
+    background-position: center;
+    width: 98vw;
+    height:99vh;
+    flex-direction:column;   
+    position: relative;
+}
+
+.about-container{
+    background-color:rgb(191, 209, 214);
+    background-size: cover;
+    background-position: center;
+    width: 98vw;
+    height:99vh;
+    flex-direction:column;   
+    position: relative;
+    display: flex;
+    align-items:center;
+}
+
+.whatido-container{
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    width: 98vw;
+    height:99vh;
+    flex-direction:column; 
+    display: flex;  
+    position: relative;
+    align-items:center;
+}
+
+.lighterbackground{
+    background-color: rgba(255,255,255,.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.myname{
+    color:#000000;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-bottom: 150px;
+}
+
+/* .about{
+    color:blue;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-top: 40px;
+} */
+/* 
+.whatido{
+    color:blue;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-top: 40px;
+} */
+
+.link{
+    color:#505052;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-top: 40px;
+}
+
+h1{
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #475252;
+    font-size: 30px;
+    font-weight: bold; */
+    color:#000000;
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
