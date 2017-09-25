@@ -9,6 +9,17 @@
     flex-direction:column;   
     position: relative;
 }
+.lighterbackground{
+    background-color: rgba(255,255,255,.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
 
 .about-container{
     background-color:rgb(191, 209, 214);
@@ -58,17 +69,7 @@
     /* align-items:center; */
 }
 
-.lighterbackground{
-    background-color: rgba(255,255,255,.2);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-}
+
 .myname{
     color:#000000;
     font-size: 80px;
